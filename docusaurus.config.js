@@ -1,13 +1,12 @@
 module.exports = {
-  url: 'https://covisart.github.io/', // Your website URL
-  baseUrl: '/SimulatorUserGuid/',
+  url: 'https://covisart.github.io', // Your website URL
+  baseUrl: '/',
   projectName: 'SimulatorUserGuid',
-  organizationName: 'covisart',
+  organizationName: 'Covisart',
   title: "Covisart New Generation Simulator",
   tagline:
     "Vehicle simulator based on a motion system developed using virtual and augmented reality technologies.",
-  url: "https://covisart.com/products-and-solutions/new-generation-simulator/",
-  baseUrl: "/SimulatorUserGuid",
+  baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "evert-arias", // Usually your GitHub org/user name.
   projectName: "New Generation Simulator", // Usually your repo name.
@@ -20,7 +19,7 @@ module.exports = {
     navbar: {
       title: "Covisart Simulator",
       logo: {
-        alt: "Covisart Simulator Logo",
+        alt: "Covisart Logo",
         src: "img/logo.svg",
       },
       links: [
@@ -150,5 +149,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: [require.resolve('@docusaurus/plugin-google-analytics')]
+  plugins: [require.resolve("@docusaurus/plugin-google-analytics")],
 };
