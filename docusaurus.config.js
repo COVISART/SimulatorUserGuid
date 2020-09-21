@@ -150,5 +150,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: ["@docusaurus/plugin-google-analytics"],
+  plugins: [require.resolve('@docusaurus/plugin-google-analytics')]
 };
