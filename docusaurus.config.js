@@ -1,12 +1,11 @@
 module.exports = {
-  url: 'https://covisart.github.io/', // Your website URL
-  baseUrl: '/SimulatorUserGuid/',
+  url: 'https://covisart.github.io', // Your website URL
+  baseUrl: '/',
   projectName: 'SimulatorUserGuid',
-  organizationName: 'covisart',
+  organizationName: 'Covisart',
   title: "Covisart New Generation Simulator",
   tagline:
     "Vehicle simulator based on a motion system developed using virtual and augmented reality technologies.",
-  url: "https://covisart.com/products-and-solutions/new-generation-simulator/",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "evert-arias", // Usually your GitHub org/user name.
@@ -150,5 +149,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: ["@docusaurus/plugin-google-analytics"],
+  plugins: [require.resolve("@docusaurus/plugin-google-analytics")],
 };
