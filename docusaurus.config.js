@@ -20,7 +20,7 @@ module.exports = {
     navbar: {
       title: "Covisart Simulator",
       logo: {
-        alt: "Covisart Logo",
+        alt: "Covisart Simulator Logo",
         src: "img/logo.svg",
       },
       links: [
