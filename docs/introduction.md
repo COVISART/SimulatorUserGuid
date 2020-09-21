@@ -4,6 +4,6 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-**EasyButton** is a small Arduino library for debouncing and reading momentary contact switches like tactile buttons. It uses callbacks to trigger actions when a button is pressed once or held for a given duration. It also provides a sequence counter to be able to rise an event when a given pattern of presses has been matched.
+**Motion Simulator CT-360/2.** Vehicle simulator based on a motion system developed using virtual and augmented reality technologies. System supports multi axis motion systems. This simulator allows users to use the aircraft they want in a virtual environment. Using AR technology, user can interact with virtual cockpit. Unlimited rotation system provide most realistic flight experience.
 
-![pull-up-configuration](https://easybtn.earias.me/img/button-configuration.jpg)
+![pull-up-configuration](https://covisart.com/wp-content/uploads/2020/04/1-1024x814.jpg)

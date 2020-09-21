@@ -121,33 +121,13 @@ function Home() {
 
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.githubStarButton}>
-            <GitHubButton
-              href="https://github.com/evert-arias/EasyButton"
-              data-icon="octicon-star"
-              data-show-count="true"
-              aria-label="Star evert-arias/EasyButton on GitHub"
-            >
-              GitHub
-            </GitHubButton>
           </div>
           <div className={styles.heroLinks}>
             <Link
               className={styles.gettingStartedLink}
-              to={"docs/introduction"}
-            >
+              to={"docs/introduction"}>
               Getting started
             </Link>
-
-            <div className={styles.downloadLink}>
-              <Link
-                className={classnames("button button--secondary button--lg")}
-                to={
-                  "https://github.com/evert-arias/EasyButton/archive/v2.0.0.zip"
-                }
-              >
-                Download
-              </Link>
-            </div>
             <div className={styles.upythonLink}>
               <h4>
                 Using MicroPython? 🐍 - Check out{" "}

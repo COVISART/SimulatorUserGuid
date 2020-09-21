@@ -1,25 +1,31 @@
 module.exports = {
-  title: "EasyButton",
+  title: "Covisart New Generation Simulator",
   tagline:
-    "Arduino library for debouncing momentary contact switches, detect press, release, long press and sequences with event definitions and callbacks.",
-  url: "https://easybtn.earias.me",
+    "Vehicle simulator based on a motion system developed using virtual and augmented reality technologies.",
+  url: "https://covisart.com/products-and-solutions/new-generation-simulator/",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "evert-arias", // Usually your GitHub org/user name.
-  projectName: "EasyButton", // Usually your repo name.
+  projectName: "New Generation Simulator", // Usually your repo name.
   themeConfig: {
-    announcementBar: {
+    /*announcementBar: {
       id: "newrelease",
       content:
         '⭐️ EasyButton v2.0 has been released. Download from <a target="_blank" rel="noopener noreferrer" href="https://github.com/evert-arias/EasyButton/archive/v2.0.0.zip">GitHub</a>. ⭐️',
-    },
+    },*/
     navbar: {
-      title: "EasyButton",
+      title: "Covisart Simulator",
       logo: {
-        alt: "EasyButton Logo",
+        alt: "Covisart Logo",
         src: "img/logo.svg",
       },
       links: [
+        {
+          to: "docs/userguid",
+          activeBasePath: "userguid",
+          label: "Setups",
+          position: "left",
+        },
         {
           to: "docs/introduction",
           activeBasePath: "docs",
@@ -39,9 +45,9 @@ module.exports = {
           position: "left",
         },
         { to: "/contributors", label: "Contributors", position: "left" },
-        { to: "https://blog.earias.me", label: "Blog", position: "right" },
+        { to: "https://blog.covisart.com", label: "Blog", position: "right" },
         {
-          href: "https://github.com/evert-arias/EasyButton",
+          href: "https://github.com/Covisart",
           label: "GitHub",
           position: "right",
         },
@@ -50,6 +56,23 @@ module.exports = {
     footer: {
       style: "dark",
       links: [
+        {
+          title: "Setups",
+          items: [
+            {
+              label: "Introduction",
+              to: "docs/introduction",
+            },
+            {
+              label: "Installation",
+              to: "docs/installation",
+            },
+            {
+              label: "Fundamentals",
+              to: "docs/fundamentals",
+            },
+          ],
+        },
         {
           title: "Docs",
           items: [
@@ -115,7 +138,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/evert-arias/easybutton-website",
+          editUrl: "https://github.com/COVISART/SimulatorUserGuid",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

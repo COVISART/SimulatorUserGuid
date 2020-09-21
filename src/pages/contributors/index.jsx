@@ -16,8 +16,8 @@ function ContributorsPage() {
         </h4>
       </div>
       <Contributors
-        owner="evert-arias"
-        repo={["EasyButton", "easybtn.earias.me"]}
+        owner="COVISART"
+        repo={["SimulatorUserGuid", "https://covisart.com/"]}
       />
     </Layout>
   );
