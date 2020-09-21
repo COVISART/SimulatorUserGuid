@@ -7,7 +7,7 @@ module.exports = {
   tagline:
     "Vehicle simulator based on a motion system developed using virtual and augmented reality technologies.",
   url: "https://covisart.com/products-and-solutions/new-generation-simulator/",
-  baseUrl: "/",
+  baseUrl: "/SimulatorUserGuid",
   favicon: "img/favicon.ico",
   organizationName: "evert-arias", // Usually your GitHub org/user name.
   projectName: "New Generation Simulator", // Usually your repo name.
