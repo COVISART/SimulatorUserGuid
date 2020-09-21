@@ -1,7 +1,7 @@
 {
-  "name": "easybutton-website",
+  "name": "simulatoruserguid",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",

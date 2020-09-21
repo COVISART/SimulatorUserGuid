@@ -1,4 +1,8 @@
 module.exports = {
+  url: 'https://covisart.github.io/', // Your website URL
+  baseUrl: '/SimulatorUserGuid/',
+  projectName: 'SimulatorUserGuid',
+  organizationName: 'covisart',
   title: "Covisart New Generation Simulator",
   tagline:
     "Vehicle simulator based on a motion system developed using virtual and augmented reality technologies.",
