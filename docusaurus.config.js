@@ -6,7 +6,6 @@ module.exports = {
   title: "Covisart New Generation Simulator",
   tagline:
     "Vehicle simulator based on a motion system developed using virtual and augmented reality technologies.",
-  baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "evert-arias", // Usually your GitHub org/user name.
   projectName: "New Generation Simulator", // Usually your repo name.
