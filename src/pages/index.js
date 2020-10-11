@@ -9,16 +9,14 @@ import GitHubButton from "react-github-btn";
 
 const features = [
   {
-    title: <>Intuitive API</>,
+    title: <>Easy Software Management</>,
     imageUrl: "img/feature-intuitive-api.svg",
     description: (
       <>
-        Handling buttons is a simple task on arduino, but the code can look very
-        ugly, full of conditions and delays that are not safe at all. EasyButton
-        not only saves you development time, it also provides an easy and
-        intuitive API for handling buttons with callbacks.
+        All parts of motion system managed by a web based software, Covisart Simulation software controls motion of system and manages simulation softwares at same time.
+        Software loads scenario, starts simulation, powers servo motors and starts communication. Now you are ready to take off.
         <div className={styles.featureButtomLink}>
-          <Link to="docs/on-single-press-api">API documentation</Link>
+          <Link to="docs/on-pressed-soft-tut">Software Tutorial</Link>
         </div>
       </>
     ),
